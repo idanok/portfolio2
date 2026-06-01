@@ -15,7 +15,7 @@ export default function JSFrameworks() {
           </figure>
           <div className="flex gap-4 mb-10">
             <a href="https://online-shop-delta-rouge.vercel.app" target="_blank" rel="noopener noreferrer" className="text-sm font-medium bg-[#1B2B40] text-white px-4 py-2 rounded-xl hover:bg-[#2d4460] transition-colors">View Live Site ↗</a>
-            <a href="https://github.com/idanok/online-shop#readme" target="_blank" rel="noopener noreferrer" className="text-sm font-medium border border-[#E8E4DE] text-[#1B2B40] px-4 py-2 rounded-xl hover:border-[#1B2B40] transition-colors">GitHub README ↗</a>
+            <a href="https://github.com/idanok/online-shop/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="text-sm font-medium border border-[#E8E4DE] text-[#1B2B40] px-4 py-2 rounded-xl hover:border-[#1B2B40] transition-colors">GitHub README ↗</a>
           </div>
           <div className="bg-white rounded-2xl p-8 border border-[#E8E4DE]">
             <h2 className="font-serif text-xl font-semibold text-[#1B2B40] mb-3">About this project</h2>
