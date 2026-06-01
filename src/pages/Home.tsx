@@ -27,11 +27,11 @@ const projects = [
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#FAF6F0]">
-      <div className="bg-[#1B2B40] px-6 py-24 text-center">
-        <h1 className="font-serif text-5xl font-light text-white mb-4">Ida <span className="text-[#E8614A]">Nokland</span></h1>
+      <div className="bg-[#3D2314] px-6 py-24 text-center">
+        <h1 className="font-serif text-5xl font-light text-white mb-4">Ida <span className="text-[#C4622D]">Nokland</span></h1>
         <p className="text-white/70 text-lg max-w-md mx-auto leading-relaxed">Front-end developer student at Noroff — building clean, accessible web experiences.</p>
         <div className="flex gap-4 justify-center mt-8">
-          <a href="https://github.com/idanok" target="_blank" rel="noopener noreferrer" className="text-sm font-medium bg-[#E8614A] text-white px-6 py-3 rounded-xl hover:bg-[#d4553f] transition-colors">GitHub Profile</a>
+          <a href="https://github.com/idanok" target="_blank" rel="noopener noreferrer" className="text-sm font-medium bg-[#C4622D] text-white px-6 py-3 rounded-xl hover:bg-[#d4553f] transition-colors">GitHub Profile</a>
         </div>
       </div>
       <div className="max-w-5xl mx-auto px-6 py-16">
@@ -45,15 +45,15 @@ export default function Home() {
       <div className="bg-white border-t border-[#E8E4DE] py-16">
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
           <div>
-            <p className="font-serif text-3xl font-bold text-[#1B2B40]">3</p>
+            <p className="font-serif text-3xl font-bold text-[#3D2314]">3</p>
             <p className="text-sm text-[#4B5563] mt-1">Projects completed</p>
           </div>
           <div>
-            <p className="font-serif text-3xl font-bold text-[#1B2B40]">React</p>
+            <p className="font-serif text-3xl font-bold text-[#3D2314]">React</p>
             <p className="text-sm text-[#4B5563] mt-1">Primary framework</p>
           </div>
           <div>
-            <p className="font-serif text-3xl font-bold text-[#1B2B40]">Noroff</p>
+            <p className="font-serif text-3xl font-bold text-[#3D2314]">Noroff</p>
             <p className="text-sm text-[#4B5563] mt-1">Front-End Development</p>
           </div>
         </div>

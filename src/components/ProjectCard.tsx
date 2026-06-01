@@ -16,9 +16,9 @@ export default function ProjectCard({ title, description, image, slug, tag }: Pr
       </div>
       <div className="p-6">
         <span className="text-xs font-semibold text-[#8A8F9A] uppercase tracking-widest">{tag}</span>
-        <h3 className="font-serif text-lg font-semibold text-[#1B2B40] mt-1 mb-2">{title}</h3>
+        <h3 className="font-serif text-lg font-semibold text-[#3D2314] mt-1 mb-2">{title}</h3>
         <p className="text-sm text-[#4B5563] leading-relaxed line-clamp-2">{description}</p>
-        <span className="inline-block mt-4 text-sm font-medium text-[#E8614A] hover:underline">Read more →</span>
+        <span className="inline-block mt-4 text-sm font-medium text-[#C4622D] hover:underline">Read more →</span>
       </div>
     </Link>
   )
