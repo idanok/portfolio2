@@ -1,5 +1,5 @@
 cat > ~/portfolio/README.md << 'EOF'
-# Portfolio — Ida Okland
+# Portfolio — Ida Nokland
 
 Personal portfolio website showcasing front-end development projects built during studies at Noroff School of Technology and Digital Media.
 
