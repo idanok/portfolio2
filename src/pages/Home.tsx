@@ -4,21 +4,21 @@ const projects = [
   {
     title: 'CSS Frameworks',
     description: 'A responsive social media front-end application built with Tailwind CSS, featuring posts, profiles, and user interactions.',
-    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800',
+    image: '/images/cssframeworks.jpeg',
     slug: '/css-frameworks',
     tag: 'HTML / CSS / JavaScript',
   },
   {
     title: 'JavaScript Frameworks',
     description: 'A full e-commerce online shop built with Next.js, featuring product listings, cart management, and checkout flow.',
-    image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800',
+    image: '/images/jsframeworks.jpg',
     slug: '/js-frameworks',
     tag: 'Next.js / React',
   },
   {
     title: 'Semester Project 2 — Holidaze',
     description: 'A modern accommodation booking platform where users can browse venues, make bookings, and manage their listings.',
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+    image: '/images/holidaze.jpg',
     slug: '/semester-project-2',
     tag: 'React / TypeScript / Tailwind',
   },
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FAF6F0]">
       <div className="bg-[#1B2B40] px-6 py-24 text-center">
-        <h1 className="font-serif text-5xl font-light text-white mb-4">Ida <span className="text-[#E8614A]">Okland</span></h1>
+        <h1 className="font-serif text-5xl font-light text-white mb-4">Ida <span className="text-[#E8614A]">Nokland</span></h1>
         <p className="text-white/70 text-lg max-w-md mx-auto leading-relaxed">Front-end developer student at Noroff — building clean, accessible web experiences.</p>
         <div className="flex gap-4 justify-center mt-8">
           <a href="https://github.com/idanok" target="_blank" rel="noopener noreferrer" className="text-sm font-medium bg-[#E8614A] text-white px-6 py-3 rounded-xl hover:bg-[#d4553f] transition-colors">GitHub Profile</a>

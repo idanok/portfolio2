@@ -10,7 +10,7 @@ export default function JSFrameworks() {
           <h1 className="font-serif text-3xl font-semibold text-[#1B2B40] mt-2 mb-4">JavaScript Frameworks — Online Shop</h1>
           <button onClick={() => { navigator.clipboard.writeText(window.location.href); alert('Link copied!'); }} className="text-sm text-[#8A8F9A] hover:text-[#1B2B40] transition-colors mb-8 inline-block">Share this project ↗</button>
           <figure className="mb-8">
-            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800" alt="Online shop project screenshot" className="w-full rounded-2xl object-cover h-64" />
+          <img src="/images/jsframeworks.jpg" alt="Online shop project screenshot" className="w-full rounded-2xl object-cover h-64" />
             <figcaption className="text-sm text-[#8A8F9A] mt-2 text-center">E-commerce online shop built with Next.js</figcaption>
           </figure>
           <div className="flex gap-4 mb-10">

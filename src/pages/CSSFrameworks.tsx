@@ -10,7 +10,7 @@ export default function CSSFrameworks() {
           <h1 className="font-serif text-3xl font-semibold text-[#1B2B40] mt-2 mb-4">CSS Frameworks</h1>
           <button onClick={() => { navigator.clipboard.writeText(window.location.href); alert('Link copied!'); }} className="text-sm text-[#8A8F9A] hover:text-[#1B2B40] transition-colors mb-8 inline-block">Share this project ↗</button>
           <figure className="mb-8">
-            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800" alt="CSS Frameworks project screenshot" className="w-full rounded-2xl object-cover h-64" />
+          <img src="/images/cssframeworks.jpeg" alt="CSS Frameworks project screenshot" className="w-full rounded-2xl object-cover h-64" />
             <figcaption className="text-sm text-[#8A8F9A] mt-2 text-center">Social media front-end application — Lifely</figcaption>
           </figure>
           <div className="flex gap-4 mb-10">
@@ -19,7 +19,7 @@ export default function CSSFrameworks() {
           </div>
           <div className="bg-white rounded-2xl p-8 border border-[#E8E4DE]">
             <h2 className="font-serif text-xl font-semibold text-[#1B2B40] mb-3">About this project</h2>
-            <p className="text-[#4B5563] leading-relaxed mb-6">A responsive front-end social media application called Lifely, built using Tailwind CSS. Users can register, log in, create and edit posts, follow other users, and view profiles. The app connects to the Noroff Social API.</p>
+            <p className="text-[#4B5563] leading-relaxed mb-6"> A responsive front-end social media application called Lifely, built using HTML, Tailwind CSS and vanilla JavaScript. Users can register, log in, create and edit posts, follow other users, and view profiles. The app connects to the Noroff Social API</p>
             <h2 className="font-serif text-xl font-semibold text-[#1B2B40] mb-3">What I built</h2>
             <ul className="list-disc list-inside text-[#4B5563] space-y-2 mb-6">
               <li>User registration and login with the Noroff API</li>
