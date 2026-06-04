@@ -4,7 +4,7 @@ cat > ~/portfolio/README.md << 'EOF'
 Personal portfolio website showcasing front-end development projects built during studies at Noroff School of Technology and Digital Media.
 
 ## Live Site
-https://portfolio2-idanok.netlify.app
+https://idanokportfolio.netlify.app/
 
 ## GitHub Repository
 https://github.com/idanok/portfolio2
